@@ -6,8 +6,7 @@
 
     <!-- css and scripts -->
     <link rel="stylesheet" href="style.css">
-    <script src="jquery-3.6.0.min.js"></script>
-    <script src="js.js" defer></script>
+
 
     <title>CALC JQ</title>
 
@@ -15,13 +14,13 @@
 <body>
 <div class="container">
     <div class="top">
-        <input type="number">
+        <div id="screen">0</div>
     </div>
     <div class="keyboard">
         <button id="C" class="keyboard-button">C</button>
-        <button id="del" class="keyboard-button">&#8592;</button>
         <button id="sqrt" class="keyboard-button">&Sqrt;</button>
         <button id="2power" class="keyboard-button">x<sup style="font-size:1.5rem">2</sup></button>
+        <button id="3power" class="keyboard-button">x<sup style="font-size:1.5rem">3</sup></button>
         <button id="1" class="keyboard-button num">1</button>
         <button id="2" class="keyboard-button num">2</button>
         <button id="3" class="keyboard-button num">3</button>
@@ -46,5 +45,10 @@
     </div>
 </div>
 
+<script
+        src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+        crossorigin="anonymous"></script>
+<script src="script_file.js" ></script>
 </body>
 </html>

@@ -23,7 +23,7 @@ body
     height: 25rem;
     background-color: black;
     margin: 5rem auto;
-    border: solid black;
+    border: solid #3e3e44;
     border-radius: 1.7rem;
     height: 35rem;
     padding: 0.5rem;
@@ -59,18 +59,21 @@ button:active
     background-color: rgb(189, 186, 179);
     border-color: #5e5d58;
 }
-input[type=number]
+#screen
 {
     width: 80%;
     height: 4rem;
     font-size: 3.5rem;
     border-radius: 0.5rem;
-
+    text-align: right;
+    border: 2px solid #7db3ee;
+    background-color: azure;
+    padding-right: 0.5rem;
 }
 .num
 {
     background-color: rgb(248, 180, 31);
-    border-color: #580707;
+    border-color: #bb761c;
     color: #9c2222;
 }
 .num:active
